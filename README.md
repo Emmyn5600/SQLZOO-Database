@@ -9,7 +9,7 @@
 
 Visit [SQL-ZOO website](https://sqlzoo.net/wiki/SQL_Tutorial)
 
-## Content
+## `Content`
 
 **Tutorials: Learn SQL in stages**
 
@@ -40,7 +40,7 @@ Visit [SQL-ZOO website](https://sqlzoo.net/wiki/SQL_Tutorial)
 - [9 Self join](https://github.com/Emmyn5600/SQLZOO-Database/blob/development/tutorial09.sql)
     In which we join Edinburgh bus routes to Edinburgh bus routes.
 
-## Getting Started
+## `Getting Started`
 
 To get a local copy up and running follow these simple example steps.
 
@@ -56,7 +56,7 @@ To get a local copy up and running follow these simple example steps.
 Please Note that you must have Git installed on your PC, this can be done [here](https://gist.github.com/derhuerst/1b15ff4652a867391f03).
 
 
-## Authors
+## `Authors`
 
 👤 **NSABIMANA Emmanuel**
 
