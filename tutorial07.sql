@@ -3,7 +3,7 @@
 /*
 ***************************************************************
 **                                                           **
-***** *****            TUTORIAL - 7            ***** *****   **
+***** ***   TUTORIAL - 7 - More JOIN operations  *** *****   **
 **                                                           **
 ***************************************************************
 */
@@ -95,8 +95,7 @@ HAVING COUNT(title) > 2
 -- 12-Task solution: List the film title and the leading actor for all of the films 'Julie Andrews' played in.
 
 SELECT title, name
-FROM movie JOIN casting ON (movieid = movie.id
-                            AND ord=1)
+FROM movie JOIN casting ON (movieid = movie.id AND ord=1)
            JOIN actor ON (actorid=actor.id)
 WHERE movie.id IN (
       SELECT movieid FROM casting
@@ -123,6 +122,7 @@ ORDER BY COUNT(actorid) DESC, title
 
 
 -- 15-Task solution: List all the people who have worked with 'Art Garfunkel'.
+
 SELECT name
 FROM actor JOIN casting ON (actor.id = actorid)
 WHERE movieid IN
