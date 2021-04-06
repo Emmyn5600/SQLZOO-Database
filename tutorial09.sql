@@ -1,4 +1,4 @@
--- SQL tasks from sqlzoo.net
+-- SQL tasks from https://sqlzoo.net/wiki/SQL_Tutorial
 
 /*
 ***************************************************************
