@@ -76,7 +76,6 @@ SELECT
 WHERE whn = '2020-04-20'
 ORDER BY confirmed DESC
 
-
 -- 7-Task solution: Show the infect rate ranking for each country. Only include countries with a population of at least 10 million.
 
 SELECT 
